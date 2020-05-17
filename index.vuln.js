@@ -24,7 +24,7 @@ const port = 3000
 
 const Vulnerability1 = (req, res) => {
     let url = encodeURI(req.query.url); //vulnerability
-    res.redirect(url);
+    res.redirect(http:'example.com' + url);
 }
     
 app.get('/vuln1', Vulnerability1);
